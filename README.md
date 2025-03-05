@@ -117,3 +117,25 @@ python manage.py runserver
     "certifications": ["AWS Certified"]
 }
 ```
+
+
+
+### **3️⃣ Frontend Dependencies**
+```bash
+cd cv_analysis_frontend
+```
+
+### **4️⃣ Configure Environment Variables**
+Create a `.env` file and add the following:
+```env
+VITE_API_BASE_URL=http://127.0.0.1:8000/api/document_processing
+```
+
+### **6️⃣ Run the Server**
+```bash
+npm install
+npm run dev
+```
+
+### **6️⃣ Note**
+I pushed the virtual environment and .env files on purpose so that you should not face any issue in running the project

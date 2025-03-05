@@ -4,12 +4,17 @@
 The **CV Analysis System** is a powerful AI-driven resume processing backend built with **Django, NLP, and Groq's LLaMA-3.3-70B model**. This system processes multiple resume documents, extracts structured information using **OCR and NLP**, and allows advanced **LLM-powered querying** via a chatbot interface. It also includes an **advanced resume search engine** for filtering candidates based on skills, experience, education, and certifications.
 
 ### ✨ **Key Features**
-✅ **Resume Upload & Parsing**: Supports **PDF & DOCX** formats, extracts text via **OCR** and organizes details into structured data.
-✅ **Advanced Regex + NLP Extraction**: Extracts **Personal Information, Education, Work Experience, Skills, Projects, and Certifications**.
-✅ **Groq API Integration**: Uses **LLaMA-3.3-70B** for **intelligent resume querying**.
-✅ **Multi-Turn Conversational AI**: Tracks chat history for **context-aware resume queries**.
-✅ **Optimized API Performance**: Implements **rate limiting, caching, and batch query processing**.
-✅ **Advanced Resume Search**: Find candidates by **skills, experience, education, and certifications**.
+✅ **Resume Upload & Parsing**: Supports **PDF & DOCX** formats, extracts text via **OCR** and organizes details into structured data.\n
+
+✅ **Advanced Regex + NLP Extraction**: Extracts **Personal Information, Education, Work Experience, Skills, Projects, and Certifications**.\n
+
+✅ **Groq API Integration**: Uses **LLaMA-3.3-70B** for **intelligent resume querying**.\n
+
+✅ **Multi-Turn Conversational AI**: Tracks chat history for **context-aware resume queries**.\n
+
+✅ **Optimized API Performance**: Implements **rate limiting, caching, and batch query processing**.\n
+
+✅ **Advanced Resume Search**: Find candidates by **skills, experience, education, and certifications**.\n
 
 ---
 
@@ -30,6 +35,11 @@ backend/
 ---
 
 ## 🛠 **Setup & Installation**
+### **1️⃣ Clone the Repository**
+```bash
+git clone git@github.com:HasnainAli47/ResumeParser.git
+cd cv_analysis_backend
+```
 
 ### **2️⃣ Set Up a Virtual Environment**
 ```bash

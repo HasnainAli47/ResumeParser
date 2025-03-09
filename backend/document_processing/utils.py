@@ -6,14 +6,9 @@ from django.conf import settings
 import re
 import pdfplumber
 import docx
-from collections import defaultdict
-from spacy.matcher import Matcher
-import spacy
 from .groq_api import query_groq_resume_extraction
 import json
 
-# Load spaCy's pre-trained model
-nlp = spacy.load('en_core_web_sm')
 
 def extract_sections(text):
     doc = nlp(text)
